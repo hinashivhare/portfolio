@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row,Col, Button} from "antd";
-import { MailOutlined, PhoneOutlined, EnvironmentOutlined, FacebookOutlined, GithubOutlined} from '@ant-design/icons'
+import { MailOutlined, PhoneOutlined, LinkedinOutlined, EnvironmentOutlined, FacebookOutlined, GithubOutlined} from '@ant-design/icons'
+import UIBot from "./UIBot";
 
 const FrontPage = () => {
     return(
@@ -23,6 +24,12 @@ const FrontPage = () => {
                         <div>
                             <Button
                                 type="text"
+                                icon={<LinkedinOutlined />}
+                                href="https://www.linkedin.com/in/hina-shivhare-aab46913a/"
+                            >
+                            </Button>
+                            <Button
+                                type="text"
                                 icon={<FacebookOutlined/>}
                                 href="https://www.facebook.com/hina.shivhare.3"
                             >
@@ -36,6 +43,12 @@ const FrontPage = () => {
                         </div>
                     </div>
                 </Col>
+                   <Col span={12}>
+                      <div className="front_page_UIbot">
+                          <img src="avatar1.gif"/>
+                          *<UIBot/>
+                      </div>
+                   </Col>
             </Row>
         </div>
     );

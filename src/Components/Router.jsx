@@ -3,7 +3,7 @@ import { Route, Switch} from "react-router-dom";
 import FrontPage from './FrontPage'
 import About from "./About";
 import Experience from "./Experience";
-import Education from "./Educarion";
+import Education from "./Education";
 
 
 const Router = () => {
