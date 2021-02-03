@@ -46,7 +46,7 @@ const FrontPage = () => {
                    <Col span={12}>
                       <div className="front_page_UIbot">
                           <img src="avatar1.gif"/>
-                          <UIBot/>
+                           <UIBot/>
                       </div>
                    </Col>
             </Row>
