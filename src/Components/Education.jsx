@@ -4,9 +4,8 @@ import {Col, Row} from "antd";
 const Education = () => {
     return(
         <Row className="education">
-            <Col span={12}>
+            <Col md={{span: 12}} sm={{span: 7}}>
                <div style={{marginBottom: "30px"}}>
-                   <h1 className="education_heading">Education</h1>
                    <h2>Masters in Software Engineering</h2>
                    <h4>Concordia University, Canada</h4>
                    <p>2019-2021</p>
@@ -17,8 +16,8 @@ const Education = () => {
                    <p>2012-2016</p>
                </div>
             </Col>
-            <Col span={12}>
-                <img style={{width: "70%", marginTop: "20px"}} src="education.gif"/>
+            <Col md={{span: 12}} sm={{span: 7}}>
+                <img src="education.gif"/>
             </Col>
         </Row>
     );

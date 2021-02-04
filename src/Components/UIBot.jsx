@@ -5,7 +5,6 @@ export default class UIBot extends React.Component {
 
     componentDidMount() {
         const _that = this;
-        console.log("=====jere 2");
         this.botui.message.bot({ // show first message
             delay: 1000,
             content: 'Hi there 👋',
@@ -91,7 +90,6 @@ export default class UIBot extends React.Component {
 
     render () {
         return <Botui ref={ cmp => {
-            console.log("=====jere 1");
             this.botui = cmp
         }
         } />;
