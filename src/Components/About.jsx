@@ -6,10 +6,10 @@ import {DownloadOutlined} from '@ant-design/icons'
 const About = () => {
     return (
         <Row gutter={1} justify="center">
-            <Col span={14}>
+            <Col md={{span: 14}} sm={{ span: 4}}>
                 <img width="620px" className="about_img" src="/hina-avatar.gif"/>
             </Col>
-            <Col span={10}>
+            <Col md={{span: 10}} sm={{ span: 10}}>
                 <h2 className="about_me">About Me</h2>
                 <p style={{marginBottom: "20px"}}>
                     Hello, I’m Hina, a software engineer based in Montreal.

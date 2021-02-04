@@ -5,9 +5,9 @@ const Experience = () => {
     return (
         <div className= "experience_heading">
             <Row className="experience_heading_1">
-                <Col span={12}>
+                <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Elanco - Farm Animal</h1>
-                    <h3 style={{marginBottom: "20px"}}>Feb 2019 - May 2019</h3>
+                    <h3 className="experience_heading_date">Feb 2019 - May 2019</h3>
                     <h3>Responsibilities</h3>
                    <li> Requirement specification analysis, development, and unit testing</li>
                     <li>Translated designs and requirements into high-quality code and build component libraries for future use.</li>
@@ -20,14 +20,14 @@ const Experience = () => {
                     <span>git-hub</span>
                     <span>Agile</span>
                 </Col>
-                <Col span={12}>
-                    <img style={{width: "100%", margin: "20px 0 0 50px"}} src="Elanco.png"/>
+                <Col md={{span: 12}} sm={{span: 8}}>
+                    <img src="Elanco.png"/>
                 </Col>
             </Row>
             <Row className="experience_heading_2">
-                <Col span={12}>
+                <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Infosys Internal Projects</h1>
-                    <h3 style={{marginBottom: "20px"}}>Apr 2018 - Jan 2019</h3>
+                    <h3 className="experience_heading_date">Apr 2018 - Jan 2019</h3>
                    <p>
                        In Infosys, I was working on two internal projects along with intensive training in ReactJS and Redux.
                        The first project was on Point of Sale (POS) system. Our goal was to provide a fast and fantastic “store checkout” experience toour users based on their needs and regular feedback.
@@ -47,14 +47,14 @@ const Experience = () => {
                     <span>JIRA</span>
                     <span>Agile</span>
                 </Col>
-                <Col span={12}>
-                    <img style={{width: "600px", height: "350px", margin: "50px 0 0 50px"}} src="internalProjects.gif"/>
+                <Col md={{span: 12}} sm={{span: 8}}>
+                    <img src="internalProjects.gif"/>
                 </Col>
             </Row>
             <Row className="experience_heading_3"  gutter={1} justify="center">
-                <Col span={12}>
+                <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Inmarsat - A Satellite Telecommunication Company</h1>
-                    <h3 style={{marginBottom: "20px"}}>Jun 2017 - Mar 2018</h3>
+                    <h3 className="experience_heading_date">Jun 2017 - Mar 2018</h3>
                     <p>
                         As part of this INMARSAT project, we were supposed to work on different components in
                         order to provide telecommunication to all the three areas land,
@@ -73,14 +73,14 @@ const Experience = () => {
                     <span>JIRA</span>
                     <span>Agile</span>
                 </Col>
-                <Col span={12}>
-                    <img style={{width: "100%", margin: "50px 0 0 50px"}} src="InmarsatLogo.png"/>
+                <Col md={{span: 12}} sm={{span: 8}}>
+                    <img src="InmarsatLogo.png"/>
                 </Col>
             </Row>
             <Row className="experience_heading_4">
-                <Col span={12}>
+                <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Belgacom Proximus</h1>
-                    <h3 style={{marginBottom: "20px"}}>Oct 2016 - May 2017</h3>
+                    <h3 className="experience_heading_date">Oct 2016 - May 2017</h3>
                     <h3> Domain: Telecom. Functional Testing.</h3>
                     <p>
                         As part of this BELGACOM project, we were supposed to work on different kind of Telecom
@@ -103,8 +103,8 @@ const Experience = () => {
                     <span>CPQ</span>
                     <span>Waterfall</span>
                 </Col>
-                <Col span={12}>
-                    <img style={{width: "100%", marginTop: "50px", backgroundColor: "#f7f7f7"}} src="Proximus.svg"/>
+                <Col md={{span: 12}} sm={{span: 8}}>
+                    <img src="Proximus.svg"/>
                 </Col>
             </Row>
         </div>
