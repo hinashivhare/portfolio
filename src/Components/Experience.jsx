@@ -11,7 +11,7 @@ const Experience = () => {
                     <h3>Responsibilities</h3>
                    <li> Requirement specification analysis, development, and unit testing</li>
                     <li>Translated designs and requirements into high-quality code and build component libraries for future use.</li>
-                    <li>Created Components build in ReactJS.</li>
+                    <li>Created components build in ReactJS.</li>
                     <li>Implemented enhancements that improved web functionality.</li>
                     <p>Technologies Used</p>
                     <span>ReactJs</span>
@@ -30,7 +30,7 @@ const Experience = () => {
                     <h3 className="experience_heading_date">Apr 2018 - Jan 2019</h3>
                    <p>
                        In Infosys, I was working on two internal projects along with intensive training in ReactJS and Redux.
-                       The first project was on Point of Sale (POS) system. Our goal was to provide a fast and fantastic “store checkout” experience toour users based on their needs and regular feedback.
+                       The first project was on Point of Sale (POS) system. Our goal was to provide a fast and fantastic “store checkout” experience to our users based on their needs and regular feedback.
                        While the second was an internal dashboard web app using Reactjs, HTML, CSS, ant-design.
                    </p>
                     <h3>Responsibilities</h3>
@@ -57,8 +57,8 @@ const Experience = () => {
                     <h3 className="experience_heading_date">Jun 2017 - Mar 2018</h3>
                     <p>
                         As part of this INMARSAT project, we were supposed to work on different components in
-                        order to provide telecommunication to all the three areas land,
-                        water and air with the help of Satellite.
+                        order to provide telecommunication to all the three areas of land,
+                        water and air with the help of a satellite.
                     </p>
                     <h3>Responsibilities</h3>
                     <li>Lead designer of test cases and Creating Scripts for Automation Testing.</li>
@@ -87,7 +87,6 @@ const Experience = () => {
                         Item and plan Proximus provide to its user.It was a project to provide, cease, migrate,
                         change and move the item and then tracking it and generating invoice and billing
                         documents for the order via PEGA.
-                        Responsibilities:
                     </p>
                     <h3>Responsibilities</h3>
                     <li>Lead designer of test cases and test analyst</li>
