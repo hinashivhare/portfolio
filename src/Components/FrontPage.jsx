@@ -19,7 +19,7 @@ const FrontPage = () => {
                         >
                             hinashivhare26@gmail.com
                         </Button>
-                        <p>{<PhoneOutlined />} +1 514 571 9144</p>
+                        <p>{<PhoneOutlined />} +1 437 887 3764</p>
                         <p className="front_page_location">{<EnvironmentOutlined />} Montreal, Canada</p>
                         <div>
                             <Button
