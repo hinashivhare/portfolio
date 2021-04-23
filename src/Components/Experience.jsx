@@ -27,7 +27,7 @@ const Experience = () => {
             <Row className="experience_heading_2">
                 <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Infosys Internal Projects</h1>
-                    <h3 className="experience_heading_date">Apr 2018 - Jan 2019</h3>
+                    <h3 className="experience_heading_date">Jan 2018 - Jan 2019</h3>
                    <p>
                        In Infosys, I was working on two internal projects along with intensive training in ReactJS and Redux.
                        The first project was on Point of Sale (POS) system. Our goal was to provide a fast and fantastic “store checkout” experience to our users based on their needs and regular feedback.
@@ -54,7 +54,7 @@ const Experience = () => {
             <Row className="experience_heading_3"  gutter={1} justify="center">
                 <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Inmarsat - A Satellite Telecommunication Company</h1>
-                    <h3 className="experience_heading_date">Jun 2017 - Mar 2018</h3>
+                    <h3 className="experience_heading_date">Jun 2017 - Dec 2017</h3>
                     <p>
                         As part of this INMARSAT project, we were supposed to work on different components in
                         order to provide telecommunication to all the three areas of land,
@@ -80,7 +80,7 @@ const Experience = () => {
             <Row className="experience_heading_4">
                 <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Belgacom Proximus</h1>
-                    <h3 className="experience_heading_date">Oct 2016 - May 2017</h3>
+                    <h3 className="experience_heading_date">Oct 2016 - Feb 2017</h3>
                     <h3> Domain: Telecom. Functional Testing.</h3>
                     <p>
                         As part of this BELGACOM project, we were supposed to work on different kind of Telecom
