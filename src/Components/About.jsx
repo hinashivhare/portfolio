@@ -14,7 +14,7 @@ const About = () => {
                 <p style={{marginBottom: "20px"}}>
                     Hello, I’m Hina, a software engineer based in Montreal.
                     I love building new things from scratch and that is what I have been doing
-                    professionally for over 2 years. I am a tinkerer and that has always made me believe
+                    professionally for 3 years. I am a tinkerer and that has always made me believe
                     that I can build anything I desire. I am very passionate about writing code
                     and bringing life-changing products to life. I am an outdoor person and I
                     enjoy riding a bike or skiing downhill during winter.
@@ -25,6 +25,7 @@ const About = () => {
                     <span>React</span>
                     <span>Redux</span>
                     <span>Typescript</span>
+                    <span>Jest-Enzyme</span>
                     <span>MySQL</span>
                     <span>HTML</span>
                     <span>CSS</span>
