@@ -7,18 +7,19 @@ const Experience = () => {
             <Row className="experience_heading_1">
                 <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Elanco - Farm Animal</h1>
-                    <h3 className="experience_heading_date">Feb 2019 - May 2019</h3>
+                    <h3 className="experience_heading_date">Jan 2019 - May 2019</h3>
                     <h3>Responsibilities</h3>
-                   <li> Requirement specification analysis, development, and unit testing</li>
-                    <li>Translated designs and requirements into high-quality code and build component libraries for future use.</li>
-                    <li>Created components build in ReactJS.</li>
-                    <li>Implemented enhancements that improved web functionality.</li>
+                   <li>Contributed to every step of product development from prototyping to depl</li>
+                    <li>Translated designs and requirements into reusable components using React and Redux</li>
+                    <li>Implemented enhancements that improved web functionality and reduced page size.</li>
+                    <li>Implemented unit tests using jest-enzyme and improved code coverage</li>
                     <p>Technologies Used</p>
                     <span>ReactJs</span>
                     <span>HTML</span>
                     <span>CSS</span>
-                    <span>git-hub</span>
-                    <span>Agile</span>
+                    <span>Redux</span>
+                    <span>Git-hub</span>
+                    <span>JIRA</span>
                 </Col>
                 <Col md={{span: 12}} sm={{span: 8}}>
                     <img src="Elanco.png"/>
@@ -26,39 +27,56 @@ const Experience = () => {
             </Row>
             <Row className="experience_heading_2">
                 <Col md={{span: 12}} sm={{span: 6}}>
-                    <h1>Infosys Internal Projects</h1>
-                    <h3 className="experience_heading_date">Jan 2018 - Jan 2019</h3>
+                    <h1>Infosys Retail POS system</h1>
+                    <h3 className="experience_heading_date">Jan 2018 - Dec 2018</h3>
                    <p>
-                       In Infosys, I was working on two internal projects along with intensive training in ReactJS and Redux.
-                       The first project was on Point of Sale (POS) system. Our goal was to provide a fast and fantastic “store checkout” experience to our users based on their needs and regular feedback.
-                       While the second was an internal dashboard web app using Reactjs, HTML, CSS, ant-design.
+                       I helped build interactive UI features for one of Infosys's most used retail POS solutions. I worked on the
+                       loyalty program integration within the checkout 􀆙ow.
                    </p>
                     <h3>Responsibilities</h3>
-                    <li>Executed unit testing as required.</li>
+                    <li>Partnered with the back-end team to implement features using RESTful APIs.</li>
                     <li>Analyzed business requirements and built a responsive website</li>
-                    <li>Implemented JavaScript, AJAX to develop a highly responsive interface and provide dynamic functionality</li>
-                    <li>Supervised end-to-end coordination with offshore clients and extensively worked in an Agile team</li>
+                    <li>Refactored features built in Angular 1 and moved them to React Redux</li>
+                    <li>Actively worked on improving code documentation to make it more intuitive to read</li>
+                    <li>Worked on existing selenium testing framework and implemented integration tests.</li>
+                    <li>Supervised end-to-end coordination with offshore clients and extensively worked in an Agile team.</li>
                     <p>Technologies Used</p>
                     <span>React</span>
                     <span>HTML</span>
                     <span>CSS</span>
                     <span>git-hub</span>
-                    <span>Ant-Design</span>
                     <span>JIRA</span>
-                    <span>Agile</span>
                 </Col>
                 <Col md={{span: 12}} sm={{span: 8}}>
                     <img src="internalProjects.gif"/>
                 </Col>
             </Row>
-            <Row className="experience_heading_3"  gutter={1} justify="center">
+            <Row className="experience_heading_3">
+                <Col md={{span: 12}} sm={{span: 6}}>
+                    <h1>Infosys - Feedback Tool</h1>
+                    <h3 className="experience_heading_date">May 2017 - Dec 2017</h3>
+                    <p>
+                        I worked on employee recognition and feedback tool. The tool helped managers give quarterly feedback to
+                        their employees based on the company values. The tool helped improve engagement, spur productivity,
+                        and helped employees recognize areas of improvement.
+                    </p>
+                    <p> Technologies Used</p>
+                    <span>Javascript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JQuery</span>
+                </Col>
+                <Col md={{span: 12}} sm={{span: 8}}>
+                    <img src="infosys.jpeg"/>
+                </Col>
+            </Row>
+            <Row className="experience_heading_4"  gutter={1} justify="center">
                 <Col md={{span: 12}} sm={{span: 6}}>
                     <h1>Inmarsat - A Satellite Telecommunication Company</h1>
-                    <h3 className="experience_heading_date">Jun 2017 - Dec 2017</h3>
+                    <h3 className="experience_heading_date">Sept 2016 - April 2017</h3>
                     <p>
-                        As part of this INMARSAT project, we were supposed to work on different components in
-                        order to provide telecommunication to all the three areas of land,
-                        water and air with the help of a satellite.
+                        As part of this Inmarsat project, I worked on different components which provide telecommunication to
+                        all three areas of land, water, and air with the help of satellites
                     </p>
                     <h3>Responsibilities</h3>
                     <li>Lead designer of test cases and Creating Scripts for Automation Testing.</li>
@@ -71,39 +89,9 @@ const Experience = () => {
                     <span>AWS</span>
                     <span>Salesforce</span>
                     <span>JIRA</span>
-                    <span>Agile</span>
                 </Col>
                 <Col md={{span: 12}} sm={{span: 8}}>
                     <img src="InmarsatLogo.png"/>
-                </Col>
-            </Row>
-            <Row className="experience_heading_4">
-                <Col md={{span: 12}} sm={{span: 6}}>
-                    <h1>Belgacom Proximus</h1>
-                    <h3 className="experience_heading_date">Oct 2016 - Feb 2017</h3>
-                    <h3> Domain: Telecom. Functional Testing.</h3>
-                    <p>
-                        As part of this BELGACOM project, we were supposed to work on different kind of Telecom
-                        Item and plan Proximus provide to its user.It was a project to provide, cease, migrate,
-                        change and move the item and then tracking it and generating invoice and billing
-                        documents for the order via PEGA.
-                    </p>
-                    <h3>Responsibilities</h3>
-                    <li>Lead designer of test cases and test analyst</li>
-                    <li>Creating groovy scripts for progression and regression test cases.</li>
-                    <li>Providing design solutions due to intense telecom domain knowledge.</li>
-                    <li>Epic Owner of various critical modules</li>
-                    <li>Have strong technical skills, both functional and non-functional, manual and automation,
-                        ideally in a continuous delivery environment
-                    </li>
-                    <p> Technologies Used</p>
-                    <span>SOAP UI</span>
-                    <span>PEGA</span>
-                    <span>CPQ</span>
-                    <span>Waterfall</span>
-                </Col>
-                <Col md={{span: 12}} sm={{span: 8}}>
-                    <img src="Proximus.svg"/>
                 </Col>
             </Row>
         </div>

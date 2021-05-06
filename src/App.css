@@ -54,7 +54,7 @@ body {
     margin: 100px 0 40px 0;
 }
 .experience_heading_1 img{
-    width: 100%;
+    width: 80%;
     margin: 20px 0 0 50px;
 }
 .experience_heading span{
@@ -75,12 +75,13 @@ body {
     margin-bottom: 40px;
 }
 .experience_heading_3 img {
-    width: 100%;
+    width: 70%;
+    height: 300px;
     margin: 50px 0 0 50px;
 }
 .experience_heading_4 img {
-    width: 100%;
-    margin-top: 40px;
+    width: 75%;
+    margin: 40px 0 0 50px;
     background-color: #f7f7f7;
 }
 .front_page_UIbot{
@@ -173,7 +174,7 @@ body {
         margin-top: 20px;
     }
     .experience_heading_1 img{
-        width: 70%;
+        width: 50%;
         margin: 20px 0 0 10px;
     }
     .experience_heading_2{
@@ -189,10 +190,11 @@ body {
     }
     .experience_heading_3 img {
         width: 70%;
+        height: 100px;
         margin: 20px 0 10px 50px;
     }
     .experience_heading_4 img {
-        width: 70%;
+        width: 50%;
         margin-top: 0;
     }
 
