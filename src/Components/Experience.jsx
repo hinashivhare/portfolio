@@ -5,7 +5,7 @@ const Experience = () => {
     return (
         <div className= "experience_heading">
             <Row className="experience_heading_1">
-                <Col md={{span: 12}} sm={{span: 6}}>
+                <Col md={{span: 13}} sm={{span: 7}}>
                     <h1>Elanco - Farm Animal</h1>
                     <h3 className="experience_heading_date">Jan 2019 - May 2019</h3>
                     <h3>Responsibilities</h3>
@@ -21,17 +21,17 @@ const Experience = () => {
                     <span>Git-hub</span>
                     <span>JIRA</span>
                 </Col>
-                <Col md={{span: 12}} sm={{span: 8}}>
+                <Col md={{span: 11}} sm={{span: 8}}>
                     <img src="Elanco.png"/>
                 </Col>
             </Row>
             <Row className="experience_heading_2">
-                <Col md={{span: 12}} sm={{span: 6}}>
+                <Col md={{span: 13}} sm={{span: 6}}>
                     <h1>Infosys Retail POS system</h1>
                     <h3 className="experience_heading_date">Jan 2018 - Dec 2018</h3>
                    <p>
                        I helped build interactive UI features for one of Infosys's most used retail POS solutions. I worked on the
-                       loyalty program integration within the checkout 􀆙ow.
+                       loyalty program integration within the checkout now.
                    </p>
                     <h3>Responsibilities</h3>
                     <li>Partnered with the back-end team to implement features using RESTful APIs.</li>
@@ -39,7 +39,7 @@ const Experience = () => {
                     <li>Refactored features built in Angular 1 and moved them to React Redux</li>
                     <li>Actively worked on improving code documentation to make it more intuitive to read</li>
                     <li>Worked on existing selenium testing framework and implemented integration tests.</li>
-                    <li>Supervised end-to-end coordination with offshore clients and extensively worked in an Agile team.</li>
+                    <li>Supervised coordination with offshore clients and extensively worked in an Agile team.</li>
                     <p>Technologies Used</p>
                     <span>React</span>
                     <span>HTML</span>
@@ -47,12 +47,12 @@ const Experience = () => {
                     <span>git-hub</span>
                     <span>JIRA</span>
                 </Col>
-                <Col md={{span: 12}} sm={{span: 8}}>
+                <Col md={{span: 11}} sm={{span: 8}}>
                     <img src="internalProjects.gif"/>
                 </Col>
             </Row>
             <Row className="experience_heading_3">
-                <Col md={{span: 12}} sm={{span: 6}}>
+                <Col md={{span: 13}} sm={{span: 6}}>
                     <h1>Infosys - Feedback Tool</h1>
                     <h3 className="experience_heading_date">May 2017 - Dec 2017</h3>
                     <p>
@@ -66,12 +66,12 @@ const Experience = () => {
                     <span>CSS</span>
                     <span>JQuery</span>
                 </Col>
-                <Col md={{span: 12}} sm={{span: 8}}>
+                <Col md={{span: 11}} sm={{span: 8}}>
                     <img src="infosys.jpeg"/>
                 </Col>
             </Row>
             <Row className="experience_heading_4"  gutter={1} justify="center">
-                <Col md={{span: 12}} sm={{span: 6}}>
+                <Col md={{span: 13}} sm={{span: 6}}>
                     <h1>Inmarsat - A Satellite Telecommunication Company</h1>
                     <h3 className="experience_heading_date">Sept 2016 - April 2017</h3>
                     <p>
@@ -90,7 +90,7 @@ const Experience = () => {
                     <span>Salesforce</span>
                     <span>JIRA</span>
                 </Col>
-                <Col md={{span: 12}} sm={{span: 8}}>
+                <Col md={{span: 11}} sm={{span: 8}}>
                     <img src="InmarsatLogo.png"/>
                 </Col>
             </Row>
